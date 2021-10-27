@@ -1,0 +1,32 @@
+site_name: 厦门大学·RoboMaster·硬件标准化
+site_favicon: favicon.ico
+site_url: 
+nav:
+- Overview:
+    - Introduction: Introduction.md
+    - Software Support: Software-Support.md
+- ACTR Series:
+    - High-Side Switch: High-Side-Switch.md
+- Adapter Series:
+    - CAN Center: CAN-Center.md
+    - CAN Cube: CAN-Cube.md
+    - DBUS: DBUS.md
+    - GH2GH: GH2GH.md
+    - XT2XT: XT2XT.md
+- Assistant Series:
+    - WiFi: WiFi.md
+- MAIN Series:
+    - Core: Core.md
+- PSM Series:
+    - POL: POL.md
+- SNSR Series:
+    - Gyroscope: Gyroscope.md
+- Toolkit Series: 
+    - DAPLink: DAPLink.md
+- FAQs:
+    - How to Check: How-to-Check.md
+
+    
+theme: readthedocs
+site_author: ASR-Crash
+copyright: Copyright © 2021 ASR-Crash
