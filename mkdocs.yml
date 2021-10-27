@@ -17,15 +17,15 @@ nav:
     - WiFi: WiFi.md
 - MAIN Series:
     - Core: Core.md
+    - Robotics: Robotics.md
 - PSM Series:
     - POL: POL.md
 - SNSR Series:
     - Gyroscope: Gyroscope.md
 - Toolkit Series: 
     - DAPLink: DAPLink.md
-- FAQs:
-    - How to Check: How-to-Check.md
-
+    - Detector: Detector.md
+    - USB2TTL: USB2TTL.md
     
 theme: readthedocs
 site_author: ASR-Crash

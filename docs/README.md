@@ -6,14 +6,14 @@
 
 ---
 
-### Overview
-- [Introduction](README.md)
+### Overview-概述
+- [Introduction](Introduction.md)
 - [Software Support](Software-Support.md)
 
-### ACTR Series
+### ACTR Series-执行器系列
 - [High-Side Switch](High-Side-Switch.md)
 
-### Adapter Series
+### Adapter Series-适配器系列
 
 - [CAN Center](CAN-Center.md)
 - [CAN Cube](CAN-Cube.md)
@@ -21,29 +21,28 @@
 - [GH2GH](GH2GH.md)
 - [XT2XT](XT2XT.md)
 
-### Assistant Series
+### Assistant Series-协处理系列
 
 - [WiFi](WiFi.md)
 
-### MAIN Series
+### MAIN Series-主控系列
 
 - [Core](Core.md)
+- [Robotics](Robotics.md)
 
-### PSM Series
+### PSM Series-电源系列
 
 - [POL](POL.md)
 
-### SNSR Series
+### SNSR Series-传感器系列
 
 - [Gyroscope](Gyroscope.md)
 
-### Toolkit Series
+### Toolkit Series-工具系列
 
 - [DAPLink](DAPLink.md)
-
-### FAQs
-
-- [How to Check](How-to-Check.md)
+- [Detector](Detector.md)
+- [USB2TTL](USB2TTL.md)
 
 ----
 ###### Latest Updated ：2021.10.27
