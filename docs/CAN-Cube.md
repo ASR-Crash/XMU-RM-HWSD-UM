@@ -8,3 +8,6 @@
 
  [HWSD-CAN Cube.pdf](HWSD-CAN Cube.pdf) 
 
+### 功能说明
+
+		支持4个CAN电机供电与信号传输，30mm*50mm尺寸提高空间利用率。

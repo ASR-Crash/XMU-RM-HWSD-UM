@@ -45,7 +45,7 @@
 - [USB2TTL](USB2TTL.md)
 
 ----
-###### Latest Updated ：2021.10.27
+###### Latest Updated ：2021.10.28
 ----
 
 <img src="logo\logo3.png" style="zoom: 25%;" />

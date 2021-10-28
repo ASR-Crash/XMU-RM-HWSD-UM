@@ -15,3 +15,8 @@
 		可选DAPLink/ST-Link固件，对应OpenOCD/SWD调试方式。
 
 ### 固件
+
+### ibom
+
+ [ibom-for-HWSD-DAPLink.html](ibom-for-HWSD-DAPLink.html) 
+

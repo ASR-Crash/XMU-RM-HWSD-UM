@@ -7,7 +7,12 @@
     <td><center><img src="HWSD-XT2XT-A.png"></a>
     <td><center><img src="HWSD-XT2XT-B.png"></a>
     </tr> 
+    <tr>
+        <td><center><strong>A-version</strong></center></td>
+        <td><center><strong>B-version</strong></center></td>
+    </tr>
 </table>
+
 
 ### 原理图
 
