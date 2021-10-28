@@ -16,7 +16,8 @@
 
 ### 固件
 
+ [STLinkV2.J16.S4.bin](STLinkV2.J16.S4.bin) 
+
+ [DAPLinkV2.bin](DAPLinkV2.bin) 
+
 ### ibom
-
- [ibom-for-HWSD-DAPLink.html](ibom-for-HWSD-DAPLink.html) 
-
