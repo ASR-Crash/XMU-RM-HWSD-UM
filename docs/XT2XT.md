@@ -4,8 +4,8 @@
 
 <table>
     <tr>
-        <td><img src="HWSD-XTA.png">
-        <td><img src="HWSD-XTB.png">
+        <td><img src="XTA.png">
+        <td><img src="XTB.png">
     </tr> 
     <tr>
         <td><center><strong>A-version</strong></center></td>
