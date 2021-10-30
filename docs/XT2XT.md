@@ -4,8 +4,8 @@
 
 <table>
     <tr>
-        <td><center><img src="HWSD-XT2XTA.png"/></center>
-        <td><center><img src="HWSD-XT2XTB.png"/></center>
+        <td><center><img src="img/HWSD-XT2XTA.png"/></center>
+        <td><center><img src="img/HWSD-XT2XTB.png"/></center>
     </tr> 
     <tr>
         <td><center><strong>A-version</strong></center></td>
@@ -16,9 +16,7 @@
 <img src="HWSD-XT2XTA.png"/>
 <img src="HWSD-XT2XTB.png"/>
 
-![HWSD-XT2XTB](HWSD-XT2XTB.PNG)
 
-![HWSD-XT2XTA](HWSD-XT2XTA.PNG)
 
 ### 原理图
 
