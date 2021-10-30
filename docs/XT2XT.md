@@ -4,20 +4,14 @@
 
 <table>
     <tr>
-        <td><center><img src="img/HWSD-XT2XTA.png"/></center>
-        <td><center><img src="img/HWSD-XT2XTB.png"/></center>
+        <td><img src="HWSD-XT2XT-A.png">
+        <td><img src="HWSD-XT2XT-B.png">
     </tr> 
     <tr>
         <td><center><strong>A-version</strong></center></td>
         <td><center><strong>B-version</strong></center></td>
     </tr>
 </table>
-
-<img src="HWSD-XT2XTA.png"/>
-<img src="HWSD-XT2XTB.png"/>
-
-
-
 ### 原理图
 
  [HWSD-XT2XT-A.pdf](HWSD-XT2XT-A.pdf) 
