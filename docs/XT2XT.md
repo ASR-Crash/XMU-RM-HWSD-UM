@@ -13,6 +13,8 @@
     </tr>
 </table>
 
+<img src="HWSD-XT2XTA.png"/>
+<img src="HWSD-XT2XTB.png"/>
 
 ### 原理图
 
