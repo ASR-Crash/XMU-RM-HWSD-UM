@@ -6,8 +6,9 @@
 
 ### 原理图
 
-
+ [HWSD-Robotics.pdf](HWSD-Robotics.pdf) 
 
 ### 用户手册
 
  [HWSD-MAIN for Robotics 用户手册.html](HWSD-MAIN for Robotics 用户手册.html) 
+

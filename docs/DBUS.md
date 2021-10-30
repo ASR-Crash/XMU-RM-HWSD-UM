@@ -11,3 +11,8 @@
 ### 功能介绍
 
 		板载三极管反相电路和3.3V稳压电路，将DR16接收机DBUS信号转换为串口信号。
+
+### ibom
+
+ [ibom-for-HWSD-DBUS.html](ibom-for-HWSD-DBUS.html) 
+

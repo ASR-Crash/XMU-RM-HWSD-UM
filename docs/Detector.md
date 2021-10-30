@@ -17,7 +17,8 @@
 		拨轮开关2选择运行方式（速度，位置），按下确定；
 		
 		拨轮开关2控制运行速度增减/转动角度增减。
-		
+
 
 ### ibom
 
+ [ibom-for-HWSD-Detector.html](ibom-for-HWSD-Detector.html) 
