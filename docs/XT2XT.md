@@ -16,6 +16,10 @@
 <img src="HWSD-XT2XTA.png"/>
 <img src="HWSD-XT2XTB.png"/>
 
+![HWSD-XT2XTB](HWSD-XT2XTB.PNG)
+
+![HWSD-XT2XTA](HWSD-XT2XTA.PNG)
+
 ### 原理图
 
  [HWSD-XT2XT-A.pdf](HWSD-XT2XT-A.pdf) 
