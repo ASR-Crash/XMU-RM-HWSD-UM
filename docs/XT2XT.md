@@ -4,9 +4,9 @@
 
 <table>
     <tr>
-        <td><img src="XTA.png">
-        <td><img src="XTB.png">
-    </tr> 
+        <td><center><img src="img/XTA.png"></td>
+        <td><center><img src="img/XTB.png"></td>
+    </tr>  
     <tr>
         <td><center><strong>A-version</strong></center></td>
         <td><center><strong>B-version</strong></center></td>
