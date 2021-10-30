@@ -2,17 +2,16 @@
 
 ### 概念图
 
-<table>
-    <tr>
-        <td><center><img src="img/XTA.png"></td>
-        <td><center><img src="img/XTB.png"></td>
-    </tr>  
-    <tr>
-        <td><center><strong>A-version</strong></center></td>
-        <td><center><strong>B-version</strong></center></td>
-    </tr>
-</table>
+![HWSD-XT2XT-A](HWSD-XT2XT-A.PNG)
+
+<center><strong>A-version</strong></center>
+
+![HWSD-XT2XT-B](HWSD-XT2XT-B.PNG)
+
+<center><strong>B-version</strong></center>
+
 ### 原理图
+
 
  [HWSD-XT2XT-A.pdf](HWSD-XT2XT-A.pdf) 
 
