@@ -12,7 +12,22 @@
 
 		24V转5V/3.3V输出。
 
-### 配置表
+### 机械参数
+
+| type          | POL   |         |
+| ------------- | ----- | ------- |
+| unit          | mm    | mil     |
+| space length  | 40.00 | 1574.80 |
+| board length  | 40.00 | 1574.80 |
+| fixing length | 34.92 | 1374.80 |
+| space width   | 20.00 | 787.40  |
+| board width   | 20.00 | 787.40  |
+| fixing width  | 14.92 | 587.40  |
+| space thick   | 7.00  | 275.59  |
+| board thick   | 1.60  | 62.99   |
+| fixing hole   | 3.00  | 118.11  |
+
+### 电阻配置表
 
 | Vout (V) | R3 (k) | R4 (k) | R5 (k) |
 | -------- | ------ | ------ | ------ |
@@ -28,3 +43,6 @@
 
  [ibom-for-HWSD-POL.html](ibom-for-HWSD-POL.html) 
 
+### Datashet
+
+ [MPM3550E.pdf](MPM3550E.pdf) 

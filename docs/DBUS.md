@@ -12,7 +12,24 @@
 
 		板载三极管反相电路和3.3V稳压电路，将DR16接收机DBUS信号转换为串口信号。
 
+### 机械参数
+
+| type          | DBUS  |        |
+| ------------- | ----- | ------ |
+| unit          | mm    | mil    |
+| space length  | 20.00 | 787.40 |
+| board length  | 20.00 | 787.40 |
+| fixing length | 14.92 | 587.40 |
+| space width   | 20.00 | 787.40 |
+| board width   | 20.00 | 787.40 |
+| fixing width  | 14.92 | 587.40 |
+| space thick   | 6.00  | 236.22 |
+| board thick   | 1.60  | 62.99  |
+| fixing hole   | 3.00  | 118.11 |
+
 ### ibom
 
  [ibom-for-HWSD-DBUS.html](ibom-for-HWSD-DBUS.html) 
+
+### 
 
