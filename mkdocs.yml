@@ -1,6 +1,6 @@
 site_name: 厦门大学·RoboMaster·硬件标准化
 site_favicon: favicon.ico
-site_url: 
+site_url: https://xmu-rm-hwsd-um.readthedocs.io/en/latest/
 nav:
 - Overview:
     - Introduction: Introduction.md
