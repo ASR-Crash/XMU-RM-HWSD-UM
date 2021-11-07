@@ -5,7 +5,6 @@ nav:
 - Overview:
     - Introduction: Introduction.md
     - About-this-document: About-this-document.md
-    - Software Support: Software-Support.md
 - ACTR Series:
     - High-Side Switch: High-Side-Switch.md
 - Adapter Series:
@@ -27,8 +26,10 @@ nav:
     - DAPLink: DAPLink.md
     - Detector: Detector.md
     - USB2TTL: USB2TTL.md
-- Case:
-    - Cascade: Cascade.md
+- Support:
+    - Software Support: Software-Support.md
+    - Application Case: Application-Case.md
+    - Infrastructure: Infrastructure.md
     
 theme: readthedocs
 site_author: ASR-Crash

@@ -4,11 +4,11 @@
 
 ![HWSD-XT2XT-A](HWSD-XT2XT-A.PNG)
 
-<center><strong>A-version</strong></center>
+<center><strong>version-A</strong></center>
 
 ![HWSD-XT2XT-B](HWSD-XT2XT-B.PNG)
 
-<center><strong>B-version</strong></center>
+<center><strong>version-B</strong></center>
 
 ### 原理图
 
@@ -19,9 +19,9 @@
 
 ### 功能说明
 
-		A-version：XT60转换到XT30
+		version-A：XT60转换到XT30
 	
-		B-version：XT30接口扩展，搭配GH2GH使用
+		version-B：XT30接口扩展，搭配GH2GH使用
 
 ### 机械参数
 

@@ -9,7 +9,6 @@
 ### Overview-概述
 - [Introduction：标准化理念、进程、矩阵介绍](Introduction.md)
 - [About this document：标准化文档说明](About-this-document.md)
-- [Software Support：软件标准化](Software-Support.md)
 
 ### ACTR Series-执行器系列
 - [High-Side Switch：4通道高侧开关](High-Side-Switch.md)
@@ -45,12 +44,14 @@
 - [Detector：提供快速电机检测](Detector.md)
 - [USB2TTL：USB转串口模块](USB2TTL.md)
 
-### Case-应用案例
+### Support-支持
 
-- [Cascade：层叠式应用案例](Cascade.md)
+- [Software Support：软件标准化](Software-Support.md)
+- [Application Case：应用案例](Application-Case.md)
+- [Infrastructure：基础设施](Infrastructure.md)
 
 ----
-###### Latest Updated ：2021.10.31
+###### Latest Updated ：2021.11.07
 ----
 
 <img src="logo\logo3.png" style="zoom: 25%;" />
