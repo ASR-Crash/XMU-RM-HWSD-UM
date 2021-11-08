@@ -14,18 +14,18 @@
 
 ### 机械参数
 
-| type          | High-Side Switch |         |
-| ------------- | ---------------- | ------- |
-| unit          | mm               | mil     |
-| space length  | 50.00            | 1968.50 |
-| board length  | 50.00            | 1968.50 |
-| fixing length | 44.92            | 1768.50 |
-| space width   | 42.82            | 1685.83 |
-| board width   | 30.00            | 1181.10 |
-| fixing width  | 24.92            | 981.10  |
-| space thick   | 7.00             | 275.59  |
-| board thick   | 1.60             | 62.99   |
-| fixing hole   | 3.00             | 118.11  |
+| type          | H-bridge |         |
+| ------------- | -------- | ------- |
+| unit          | mm       | mil     |
+| space length  | 50.00    | 1968.50 |
+| board length  | 50.00    | 1968.50 |
+| fixing length | 44.92    | 1768.50 |
+| space width   | 42.82    | 1685.83 |
+| board width   | 30.00    | 1181.10 |
+| fixing width  | 24.92    | 981.10  |
+| space thick   | 7.00     | 275.59  |
+| board thick   | 1.60     | 62.99   |
+| fixing hole   | 3.00     | 118.11  |
 
 ### 方向配置
 
