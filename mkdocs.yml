@@ -6,6 +6,7 @@ nav:
     - Introduction: Introduction.md
     - About this document: About-this-document.md
 - ACTR Series:
+    - H-bridge: H-bridge.md
     - High-Side Switch: High-Side-Switch.md
 - Adapter Series:
     - CAN Center: CAN-Center.md
