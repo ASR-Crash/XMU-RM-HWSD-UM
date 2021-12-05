@@ -8,6 +8,12 @@
 
  [HWSD-Robotics.pdf](HWSD-Robotics.pdf) 
 
+### 硬件框图
+
+![HWSD-Robotics Hardware block diagram](HWSD-Robotics Hardware block diagram.png)
+
+![HWSD-Robotics Power Path](HWSD-Robotics Power Path.png)
+
 ### 用户手册
 
  [HWSD-MAIN for Robotics 用户手册.html](HWSD-MAIN for Robotics 用户手册.html) 

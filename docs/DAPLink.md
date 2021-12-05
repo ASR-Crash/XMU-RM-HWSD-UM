@@ -8,6 +8,10 @@
 
  [HWSD-DAPLink.pdf](HWSD-DAPLink.pdf) 
 
+### 硬件框图
+
+![HWSD-DAPLink Hardware diagram](HWSD-DAPLink Hardware diagram.png)
+
 ### 功能说明
 
 		主控系列通用调试器，使用4pin GH1.25直连线 连接调试接口；

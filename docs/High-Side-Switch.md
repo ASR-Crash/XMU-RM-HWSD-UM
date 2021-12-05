@@ -8,6 +8,10 @@
 
  [HWSD-High-Side Switch.pdf](HWSD-High-Side Switch.pdf) 
 
+### 硬件框图
+
+![HWSD-High-Side Switch Hardware diagram V2.2](HWSD-High-Side Switch Hardware diagram V2.2.png)
+
 ### 功能说明
 
 		4通道高侧开关模块，用于电磁阀等负载通电控制。
