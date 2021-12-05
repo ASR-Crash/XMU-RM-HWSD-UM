@@ -49,9 +49,10 @@
 - [Software Support：软件标准化](Software-Support.md)
 - [Application Case：应用案例](Application-Case.md)
 - [Infrastructure：基础设施](Infrastructure.md)
+- [Model Download：模型下载](Model-Download.md)
 
 ----
-###### Latest Updated ：2021.11.07
+###### Latest Updated ：2021.12.05
 ----
 
 <img src="logo\logo3.png" style="zoom: 25%;" />

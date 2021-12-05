@@ -19,7 +19,7 @@
 | ---- | ---------------- | ---------------- | -------------- | ---------------- | ---------- | ----------- |
 | 1    | GH1.25 2pin 卧贴 | GH1.25 2pin 立贴 | M3*6 双通尼龙  | M3*6+6 单通尼龙  | MicroQTJ   | Header-3P-R |
 | 2    | GH1.25 4pin 卧贴 | GH1.25 4pin 立贴 | M3*10 双通尼龙 | M3*10+6 单通尼龙 | CR1220-2ZX | Header-4P   |
-| 3    | GH1.25 6pin 卧贴 | GH1.25 6pin 立贴 | M3*6 螺丝      | M3 螺母          |            |             |
+| 3    | GH1.25 6pin 卧贴 | GH1.25 6pin 立贴 | M3*6 螺丝      | M3 螺母          | TF-114     |             |
 | 4    | XT60PB-F         | XT60PB-M         | XT30PW-F       | XT30PW-M         | XT30UPB-F  | XT30UPB-M   |
 | 5    | XT60PB-F         | XT60PB-M         | XT30PW-F       | XT30PW-M         | XT30UPB-F  | XT30UPB-M   |
 | 6    | XT60PB-F         | XT60PB-M         | XT30PW-F       | XT30PW-M         | XT30UPB-F  | XT30UPB-M   |

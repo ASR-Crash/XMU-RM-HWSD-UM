@@ -31,6 +31,7 @@ nav:
     - Software Support: Software-Support.md
     - Application Case: Application-Case.md
     - Infrastructure: Infrastructure.md
+    - Model Download: Model-Download.md
     
 theme: readthedocs
 site_author: ASR-Crash
