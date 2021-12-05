@@ -1,4 +1,4 @@
-site_name: 厦门大学·RoboMaster·硬件标准化
+site_name: 厦门大学·RoboMaster·硬件标准化 
 site_favicon: favicon.ico
 site_url: https://xmu-rm-hwsd-um.readthedocs.io/en/latest/
 nav:
@@ -35,4 +35,4 @@ nav:
     
 theme: readthedocs
 site_author: ASR-Crash
-copyright: Copyright © 2021 ASR-Crash <img src='https://xmu-rm-hwsd-um.readthedocs.io/en/latest/img/ASR-WS.png' width='64'> | <img src='https://xmu-rm-hwsd-um.readthedocs.io/en/latest/img/Crash-precision.png' width='160'> 
+copyright: Copyright © 2021 ASR-Crash <img src='https://xmu-rm-hwsd-um.readthedocs.io/en/latest/img/ASR-WS.png' width='64'> |&nbsp; <img src='https://xmu-rm-hwsd-um.readthedocs.io/en/latest/img/Crash-precision.png' width='160'> 
