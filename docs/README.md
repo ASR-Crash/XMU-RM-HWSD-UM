@@ -12,6 +12,7 @@
 
 ### ACTR Series-执行器系列
 - [High-Side Switch：4通道高侧开关](High-Side-Switch.md)
+- [H-bridge：2路H桥驱动模块](H-bridge.md)
 
 ### Adapter Series-适配器系列
 
@@ -52,7 +53,7 @@
 - [Model Download：模型下载](Model-Download.md)
 
 ----
-###### Latest Updated ：2021.12.05
+###### Latest Updated ：2021.12.06
 ----
 
 <img src="logo\logo3.png" style="zoom: 25%;" />

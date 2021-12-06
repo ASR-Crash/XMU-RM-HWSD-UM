@@ -10,7 +10,7 @@
 
 ### 硬件框图
 
-![HWSD-Robotics Hardware block diagram](HWSD-Robotics Hardware block diagram.png)
+![HWSD-Robotics Hardware diagram](HWSD-Robotics Hardware diagram.png)
 
 ![HWSD-Robotics Power Path](HWSD-Robotics Power Path.png)
 
