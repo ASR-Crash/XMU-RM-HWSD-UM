@@ -41,6 +41,7 @@
 
 ### Toolkit Series-工具系列
 
+- [Bluetooth：蓝牙数传模块](Bluetooth.md)
 - [DAPLink：Cortex调试器](DAPLink.md)
 - [Detector：提供快速电机检测](Detector.md)
 - [USB2TTL：USB转串口模块](USB2TTL.md)
@@ -53,7 +54,7 @@
 - [Model Download：模型下载](Model-Download.md)
 
 ----
-###### Latest Updated ：2021.12.06
+###### Latest Updated ：2022.01.18
 ----
 
 <img src="logo\logo3.png" style="zoom: 25%;" />

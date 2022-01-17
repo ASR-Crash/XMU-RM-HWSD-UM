@@ -23,7 +23,8 @@ nav:
     - POL: POL.md
 - SNSR Series:
     - Gyroscope: Gyroscope.md
-- Toolkit Series: 
+- Toolkit Series:
+    - Bluetooth: Bluetooth.md
     - DAPLink: DAPLink.md
     - Detector: Detector.md
     - USB2TTL: USB2TTL.md
