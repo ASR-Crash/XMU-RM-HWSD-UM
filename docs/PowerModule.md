@@ -1,16 +1,16 @@
-## HWSD-负载点电源
+## HWSD-PowerModule 电源模块
 
 ### 概念图
 
-![HWSD-POL](HWSD-POL.PNG)
+![HWSD-PowerModule-36V5A](HWSD-PowerModule-36V5A.PNG)
 
 ### 原理图
 
- [HWSD-POL.pdf](HWSD-POL.pdf) 
+ [HWSD-PowerModule-36V5A.pdf](HWSD-PowerModule-36V5A.pdf) 
 
 ### 功能说明
 
-		24V转5V/3.3V输出。
+		一体式电源模块，最大输入电压36V，最大输出电流5A，可配置固定5V/3.3V输出。
 
 ### 机械参数
 
@@ -41,7 +41,7 @@
 
 ### ibom
 
- [ibom-for-HWSD-POL.html](ibom-for-HWSD-POL.html) 
+ [ibom-for-HWSD-PowerModule-36V5A.html](ibom-for-HWSD-PowerModule-36V5A.html) 
 
 ### Datashet
 

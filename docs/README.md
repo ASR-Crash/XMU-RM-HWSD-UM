@@ -33,7 +33,8 @@
 
 ### PSM Series-电源系列
 
-- [POL：小型负载点电源](POL.md)
+- [PowerConvert：电源转换模块](PowerConvert.md)
+- [PowerModule：一体式电源模块](PowerModule.md)
 
 ### SNSR Series-传感器系列
 

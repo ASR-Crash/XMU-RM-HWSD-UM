@@ -20,7 +20,8 @@ nav:
     - Core: Core.md
     - Robotics: Robotics.md
 - PSM Series:
-    - POL: POL.md
+    - PowerConvert: PowerConvert.md
+    - PowerModule: PowerModule.md
 - SNSR Series:
     - Gyroscope: Gyroscope.md
 - Toolkit Series:
