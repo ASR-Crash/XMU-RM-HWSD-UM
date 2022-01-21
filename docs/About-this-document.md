@@ -30,3 +30,7 @@
 
 		提供主要元器件的数据手册
 
+---
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<span id="busuanzi_container_page_pv">本篇总访问量<span id="busuanzi_value_page_pv"></span>次</span>
