@@ -18,7 +18,7 @@
 
 - [CAN Center：4路CAN中心板](CAN-Center.md)
 - [CAN Cube：4路CAN方形板](CAN-Cube.md)
-- [DBUS：提供信号反相转换](DBUS.md)
+- [DBUS：信号反相转换模块](DBUS.md)
 - [GH2GH：GH1.25接口扩展](GH2GH.md)
 - [XT2XT：XT30接口扩展](XT2XT.md)
 
@@ -55,7 +55,7 @@
 - [Model Download：模型下载](Model-Download.md)
 
 ----
-###### Latest Updated ：2022.01.21
+###### Latest Updated ：2022.01.24
 ----
 
 <img src="logo\logo3.png" style="zoom: 25%;" />

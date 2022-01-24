@@ -12,6 +12,8 @@
 
  [HWSD-DBUS.step](HWSD-DBUS.step) 
 
+ [HWSD-DCDC-60V3A.step](HWSD-DCDC-60V3A.step) 
+
  [HWSD-Detector.step](HWSD-Detector.step) 
 
  [HWSD-GH2GH.step](HWSD-GH2GH.step) 

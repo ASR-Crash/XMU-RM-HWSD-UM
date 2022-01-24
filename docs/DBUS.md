@@ -1,4 +1,4 @@
-## HWSD-DBUS转接模块
+## HWSD-DBUS 信号反相模块
 
 ### 概念图
 
@@ -12,6 +12,12 @@
 
 		板载三极管反相电路和3.3V稳压电路，将DR16接收机DBUS信号转换为串口信号。
 
+### 指示说明
+
+| LED红  | LED蓝    | LED黄    | LED绿  |
+| ------ | -------- | -------- | ------ |
+| 5V电源 | 3.3V电源 | DBUS电平 | TX指示 |
+
 ### 机械参数
 
 | type          | DBUS  |        |
@@ -23,13 +29,11 @@
 | space width   | 20.00 | 787.40 |
 | board width   | 20.00 | 787.40 |
 | fixing width  | 14.92 | 587.40 |
-| space thick   | 6.00  | 236.22 |
+| space thick   | 10.18 | 400.80 |
 | board thick   | 1.60  | 62.99  |
 | fixing hole   | 3.00  | 118.11 |
 
 ### ibom
 
  [ibom-for-HWSD-DBUS.html](ibom-for-HWSD-DBUS.html) 
-
-### 
 
