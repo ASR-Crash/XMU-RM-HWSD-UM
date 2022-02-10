@@ -21,7 +21,7 @@ nav:
     - Robotics: Robotics.md
 - PSM Series:
     - PowerConvert: PowerConvert.md
-    - PowerModule: PowerModule.md
+    - PowerProtect: PowerProtect.md
 - SNSR Series:
     - Gyroscope: Gyroscope.md
 - Toolkit Series:
@@ -37,4 +37,4 @@ nav:
     
 theme: readthedocs
 site_author: ASR-Crash
-copyright: Copyright © 2021 ASR-Crash <img src='https://xmu-rm-hwsd-um.readthedocs.io/en/latest/img/ASR-WS.png' width='64'> |&nbsp; <img src='https://xmu-rm-hwsd-um.readthedocs.io/en/latest/img/Crash-precision.png' width='160'> 
+copyright: Copyright © 2022 ASR-Crash <img src='https://xmu-rm-hwsd-um.readthedocs.io/en/latest/img/ASR-WS.png' width='64'> |&nbsp; <img src='https://xmu-rm-hwsd-um.readthedocs.io/en/latest/img/Crash-precision.png' width='160'> 

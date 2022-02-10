@@ -24,9 +24,11 @@
 
  [HWSD-High-Side Switch.step](HWSD-High-Side Switch.step) 
 
- [HWSD-POL.STEP](HWSD-POL.STEP) 
+ [HWSD-Module-36V5A.STEP](HWSD-Module-36V5A.STEP) 
 
  [HWSD-Robotics.step](HWSD-Robotics.step) 
+
+ [HWSD-Silent-42V4A.step](HWSD-Silent-42V4A.step) 
 
  [HWSD-USB2TTL.step](HWSD-USB2TTL.step) 
 

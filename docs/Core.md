@@ -23,7 +23,7 @@
 | space width   | 20.00     | 787.40  |
 | board width   | 20.00     | 787.40  |
 | fixing width  | 14.92     | 587.40  |
-| space thick   | 10.20     | 401.57  |
+| space thick   | 10.18     | 400.79  |
 | board thick   | 1.60      | 62.99   |
 | fixing hole   | 3.00      | 118.11  |
 

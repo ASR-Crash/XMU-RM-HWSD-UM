@@ -34,7 +34,7 @@
 ### PSM Series-电源系列
 
 - [PowerConvert：电源转换模块](PowerConvert.md)
-- [PowerModule：一体式电源模块](PowerModule.md)
+- [PowerProtect：电源保护模块](PowerProtect.md)
 
 ### SNSR Series-传感器系列
 
@@ -55,7 +55,7 @@
 - [Model Download：模型下载](Model-Download.md)
 
 ----
-###### Latest Updated ：2022.01.24
+###### Latest Updated ：2022.02.10
 ----
 
 <img src="logo\logo3.png" style="zoom: 25%;" />
