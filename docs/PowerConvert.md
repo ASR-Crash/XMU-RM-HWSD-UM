@@ -74,9 +74,9 @@
 
  [ibom-for-HWSD-DCDC-60V3A.html](ibom-for-HWSD-DCDC-60V3A.html) 
 
- [ibom-for-HWSD-Module-36V5A.html](PowerConvert\ibom-for-HWSD-Module-36V5A.html) 
+ [ibom-for-HWSD-Module-36V5A.html](ibom-for-HWSD-Module-36V5A.html) 
 
- [ibom-for-HWSD-Silent-42V4A.html](PowerConvert\ibom-for-HWSD-Silent-42V4A.html) 
+ [ibom-for-HWSD-Silent-42V4A.html](ibom-for-HWSD-Silent-42V4A.html) 
 
 ### Datashet
 
