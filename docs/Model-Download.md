@@ -30,6 +30,8 @@
 
  [HWSD-Silent-42V4A.step](HWSD-Silent-42V4A.step) 
 
+ [HWSD-SurgeSafe.step](HWSD-SurgeSafe.step) 
+
  [HWSD-USB2TTL.step](HWSD-USB2TTL.step) 
 
  [HWSD-WiFi-A.step](HWSD-WiFi-A.step) 
