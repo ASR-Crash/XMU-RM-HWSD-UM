@@ -5,6 +5,7 @@ nav:
 - Overview:
     - Introduction: Introduction.md
     - About this document: About-this-document.md
+    - Navigation: Navigation.md
 - ACTR Series:
     - H-bridge: H-bridge.md
     - High-Side Switch: High-Side-Switch.md
