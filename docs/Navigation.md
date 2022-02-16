@@ -21,17 +21,18 @@
     </tr>
     <tr>
     <td><center><a href="https://xmu-rm-hwsd-um.readthedocs.io/en/latest/PowerConvert/"><img src="../Navigation/HWSD-Module-36V5A.PNG"></a>
+    <td><center><a href="https://xmu-rm-hwsd-um.readthedocs.io/en/latest/PowerMonitor/"><img src="../Navigation/HWSD-PowerMonitor.PNG"></a>    
     <td><center><a href="https://xmu-rm-hwsd-um.readthedocs.io/en/latest/Robotics/"><img src="../Navigation/HWSD-Robotics.PNG"></a>
-    <td><center><a href="https://xmu-rm-hwsd-um.readthedocs.io/en/latest/PowerConvert/"><img src="../Navigation/HWSD-Silent-42V4A.PNG"></a>
-    <td><center><a href="https://xmu-rm-hwsd-um.readthedocs.io/en/latest/PowerProtect/"><img src="../Navigation/HWSD-SurgeSafe.PNG"></a>       
+    <td><center><a href="https://xmu-rm-hwsd-um.readthedocs.io/en/latest/PowerConvert/"><img src="../Navigation/HWSD-Silent-42V4A.PNG"></a>    
     </tr>
     <tr>
+    <td><center><a href="https://xmu-rm-hwsd-um.readthedocs.io/en/latest/PowerProtect/"><img src="../Navigation/HWSD-SurgeSafe.PNG"></a>       
     <td><center><a href="https://xmu-rm-hwsd-um.readthedocs.io/en/latest/USB2TTL/"><img src="../Navigation/HWSD-USB2TTL.PNG"></a>
     <td><center><a href="https://xmu-rm-hwsd-um.readthedocs.io/en/latest/WiFi/"><img src="../Navigation/HWSD-WiFi-A.PNG"></a>
-    <td><center><a href="https://xmu-rm-hwsd-um.readthedocs.io/en/latest/WiFi/"><img src="../Navigation/HWSD-WiFi-B.PNG"></a>
-    <td><center><a href="https://xmu-rm-hwsd-um.readthedocs.io/en/latest/XT2XT/"><img src="../Navigation/HWSD-XT2XT-A.PNG"></a>        
+    <td><center><a href="https://xmu-rm-hwsd-um.readthedocs.io/en/latest/WiFi/"><img src="../Navigation/HWSD-WiFi-B.PNG"></a>      
     </tr>  
     <tr>
+    <td><center><a href="https://xmu-rm-hwsd-um.readthedocs.io/en/latest/XT2XT/"><img src="../Navigation/HWSD-XT2XT-A.PNG"></a>          
     <td><center><a href="https://xmu-rm-hwsd-um.readthedocs.io/en/latest/XT2XT/"><img src="../Navigation/HWSD-XT2XT-B.PNG"></a>
     <td><center><a href=""><img src=""></a>
     <td><center><a href=""><img src=""></a>
