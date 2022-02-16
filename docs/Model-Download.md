@@ -26,6 +26,8 @@
 
  [HWSD-Module-36V5A.STEP](HWSD-Module-36V5A.STEP) 
 
+ [HWSD-PowerMonitor.step](HWSD-PowerMonitor.step) 
+
  [HWSD-Robotics.step](HWSD-Robotics.step) 
 
  [HWSD-Silent-42V4A.step](HWSD-Silent-42V4A.step) 

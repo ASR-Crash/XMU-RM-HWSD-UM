@@ -22,6 +22,7 @@ nav:
     - Robotics: Robotics.md
 - PSM Series:
     - PowerConvert: PowerConvert.md
+    - PowerMonitor: PowerMonitor.md
     - PowerProtect: PowerProtect.md
 - SNSR Series:
     - Gyroscope: Gyroscope.md
