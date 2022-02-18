@@ -27,6 +27,10 @@
 
 - [WiFi：提供网页调试](WiFi.md)
 
+### DEV Series-开发板系列
+
+- [Develop-F405：全排针引出版本](Develop-F405.md)
+
 ### MAIN Series-主控系列
 
 - [Core：极简主控板](Core.md)

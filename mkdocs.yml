@@ -17,6 +17,8 @@ nav:
     - XT2XT: XT2XT.md
 - Assistant Series:
     - WiFi: WiFi.md
+- DEV Series:
+    - Develop-F405: Develop-F405.md
 - MAIN Series:
     - Core: Core.md
     - Robotics: Robotics.md
