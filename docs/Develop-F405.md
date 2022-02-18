@@ -31,6 +31,10 @@
 
  [ibom-for-HWSD-Develop-F405.html](ibom-for-HWSD-Develop-F405.html) 
 
+### Datasheet
+
+ [STM32F405xx-Datasheet.pdf](STM32F405xx-Datasheet.pdf) 
+
 ---
 
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
