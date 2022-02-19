@@ -1,18 +1,24 @@
-## HWSD-主控板
+## HWSD-Robotics主控板
 
 ### 概念图
 
-![HWSD-Robotics official](HWSD-Robotics official.PNG)
+![HWSD-Robotics V2.0](HWSD-Robotics V2.0.PNG)
+
+![HWSD-Robotics V3.0](HWSD-Robotics V3.0.PNG)
 
 ### 原理图
 
- [HWSD-Robotics.pdf](HWSD-Robotics.pdf) 
+ [HWSD-Robotics V2.0 SCH.pdf](HWSD-Robotics V2.0 SCH.pdf) 
+
+ [HWSD-Robotics V3.1 SCH.pdf](HWSD-Robotics V3.1 SCH.pdf) 
 
 ### 硬件框图
 
 ![HWSD-Robotics Hardware diagram](HWSD-Robotics Hardware diagram.png)
 
-![HWSD-Robotics Power Path](HWSD-Robotics Power Path.png)
+![HWSD-Robotics Power Path V2.0](HWSD-Robotics Power Path V2.0.png)
+
+![HWSD-Robotics Power Path V3.0](HWSD-Robotics Power Path V3.0.png)
 
 ### 用户手册
 
@@ -35,7 +41,9 @@
 
 ### ibom
 
- [ibom-for-HWSD-Robotics.html](ibom-for-HWSD-Robotics.html) 
+ [ibom-for-HWSD-Robotics-V2.0.html](ibom-for-HWSD-Robotics-V2.0.html) 
+
+ [ibom-for-HWSD-Robotics-V3.1.html](ibom-for-HWSD-Robotics-V3.1.html) 
 
 ---
 
