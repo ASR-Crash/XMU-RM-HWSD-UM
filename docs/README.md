@@ -61,10 +61,12 @@
 - [Model Download：模型下载](Model-Download.md)
 
 ----
-###### Latest Updated ：2022.02.18
+###### Latest Updated ：2022.03.03
 ----
 
-<img src="logo\logo3.png" style="zoom: 25%;" />
+<img src="logo\logo3.png" alt="Authorize to 厦门大学机器人队" />
+
+<img src="logo\ASR-Authorize.png" alt="Authorized by ASR科研联盟" />
 
 
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
