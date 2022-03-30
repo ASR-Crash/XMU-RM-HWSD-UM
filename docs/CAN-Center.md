@@ -1,5 +1,7 @@
 ## HWSD-CAN中心板
 
+> NOT recommended for new designs
+
 ### 概念图
 
 ![HWSD-CAN Center](HWSD-CAN Center.PNG)

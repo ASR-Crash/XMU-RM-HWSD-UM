@@ -12,6 +12,7 @@ nav:
 - Adapter Series:
     - CAN Center: CAN-Center.md
     - CAN Cube: CAN-Cube.md
+    - CAN RECT: CAN-RECT.md
     - DBUS: DBUS.md
     - GH2GH: GH2GH.md
     - XT2XT: XT2XT.md
@@ -28,6 +29,9 @@ nav:
     - PowerProtect: PowerProtect.md
 - SNSR Series:
     - Gyroscope: Gyroscope.md
+- Terminal Series:
+    - IPS: IPS.md
+    - OLED: OLED.md
 - Toolkit Series:
     - Bluetooth: Bluetooth.md
     - DAPLink: DAPLink.md

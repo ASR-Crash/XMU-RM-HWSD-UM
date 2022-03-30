@@ -1,4 +1,6 @@
-## HWSD-CAN方形板
+## HWSD-CAN方形板(old)
+
+> NOT recommended for new designs
 
 ### 概念图
 

@@ -18,7 +18,8 @@
 ### Adapter Series-适配器系列
 
 - [CAN Center：4路CAN中心板](CAN-Center.md)
-- [CAN Cube：4路CAN方形板](CAN-Cube.md)
+- [CAN Cube：4路CAN矩形板](CAN-Cube.md)
+- [CAN RECT：6路CAN矩形板](CAN-RECT.md)
 - [DBUS：信号反相转换模块](DBUS.md)
 - [GH2GH：GH1.25接口扩展](GH2GH.md)
 - [XT2XT：XT30接口扩展](XT2XT.md)
@@ -46,6 +47,11 @@
 
 - [Gyroscope：6轴/9轴陀螺仪](Gyroscope.md)
 
+### Terminal Series-终端系列
+
+- [IPS：IPS显示终端](IPS.md)
+- [OLED：OLED显示终端](OLED.md)
+
 ### Toolkit Series-工具系列
 
 - [Bluetooth：蓝牙数传模块](Bluetooth.md)
@@ -61,7 +67,7 @@
 - [Model Download：模型下载](Model-Download.md)
 
 ----
-###### Latest Updated ：2022.03.03
+###### Latest Updated ：2022.03.31
 ----
 
 <img src="logo\logo3.png" alt="Authorize to 厦门大学机器人队" />
