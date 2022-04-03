@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="ASR-Crash" /><link rel="canonical" href="https://xmu-rm-hwsd-um.readthedocs.io/en/latest/WiFi/" />
+      <link rel="shortcut icon" href="../favicon.ico" />
+    <title>WiFi - 厦门大学·RoboMaster·硬件标准化</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "WiFi";
+        var mkdocs_page_input_path = "WiFi.md";
+        var mkdocs_page_url = "/en/latest/WiFi/";
+      </script>
+    
+    <script src="../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> 厦门大学·RoboMaster·硬件标准化
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Overview</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/">Introduction</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../About-this-document/">About this document</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Navigation/">Navigation</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">ACTR Series</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../H-bridge/">H-bridge</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../High-Side-Switch/">High-Side Switch</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Adapter Series</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../CAN-Center/">CAN Center</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../CAN-Cube/">CAN Cube</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../CAN-RECT/">CAN RECT</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../DBUS/">DBUS</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../GH2GH/">GH2GH</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../XT2XT/">XT2XT</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Assistant Series</span></p>
+              <ul class="current">
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">WiFi</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#_1">概念图</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_2">原理图</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_3">功能说明</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_4">烧录工具</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_5">固件程序</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_6">机械参数</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#ibom">ibom</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#datasheet">Datasheet</a>
+    </li>
+    </ul>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">DEV Series</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Develop-F405/">Develop-F405</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">MAIN Series</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Core/">Core</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Robotics/">Robotics</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">PSM Series</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../PowerConvert/">PowerConvert</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../PowerMonitor/">PowerMonitor</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../PowerProtect/">PowerProtect</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">SNSR Series</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Gyroscope/">Gyroscope</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Terminal Series</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../IPS/">IPS</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../OLED/">OLED</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Toolkit Series</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Bluetooth/">Bluetooth</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../DAPLink/">DAPLink</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Detector/">Detector</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../USB2TTL/">USB2TTL</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Support</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Software-Support/">Software Support</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Application-Case/">Application Case</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Infrastructure/">Infrastructure</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Model-Download/">Model Download</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">厦门大学·RoboMaster·硬件标准化</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+          <li>Assistant Series &raquo;</li><li>WiFi</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h2 id="hwsd-wifi">HWSD-WiFi模块</h2>
+<h3 id="_1">概念图</h3>
+<p><img alt="HWSD-WiFi-A" src="HWSD-WiFi-A.PNG" /></p>
+<p><center><strong>version-A</strong></center></p>
+<p><img alt="HWSD-WiFi-B" src="HWSD-WiFi-B.PNG" /></p>
+<p><center><strong>version-B</strong></center></p>
+<h3 id="_2">原理图</h3>
+<p><a href="HWSD-WiFi-A.pdf">HWSD-WiFi-A.pdf</a></p>
+<p><a href="HWSD-WiFi-B.pdf">HWSD-WiFi-B.pdf</a></p>
+<h3 id="_3">功能说明</h3>
+<pre><code>    板载ESP-12S WiFi模块，通过网页基于IO或者串口对协处理对象进行控制。
+</code></pre>
+<h3 id="_4">烧录工具</h3>
+<p><a href="flash_download_tool_v3.8.5_1.zip">flash_download_tool_v3.8.5_1.zip</a> </p>
+<p><a href="LuaLoader.zip">LuaLoader.zip</a></p>
+<p><a href="ESPlorer.zip">ESPlorer.zip</a> </p>
+<h3 id="_5">固件程序</h3>
+<p><a href="nodemcu_integer_0.9.6-dev_20150704.bin">nodemcu_integer_0.9.6-dev_20150704.bin</a> </p>
+<p><a href="https://nodemcu-build.com/">NodeMCU custom builds</a></p>
+<p><a href="init.lua">init.lua</a> </p>
+<h3 id="_6">机械参数</h3>
+<table>
+<thead>
+<tr>
+<th>type</th>
+<th>WiFi-A</th>
+<th></th>
+<th></th>
+<th>type</th>
+<th>WiFi-B</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>unit</td>
+<td>mm</td>
+<td>mil</td>
+<td></td>
+<td>unit</td>
+<td>mm</td>
+<td>mil</td>
+</tr>
+<tr>
+<td>space length</td>
+<td>50.00</td>
+<td>1968.50</td>
+<td></td>
+<td>space length</td>
+<td>40.00</td>
+<td>1574.80</td>
+</tr>
+<tr>
+<td>board length</td>
+<td>50.00</td>
+<td>1968.50</td>
+<td></td>
+<td>board length</td>
+<td>40.00</td>
+<td>1574.80</td>
+</tr>
+<tr>
+<td>fixing length</td>
+<td>44.92</td>
+<td>1768.50</td>
+<td></td>
+<td>fixing length</td>
+<td>34.92</td>
+<td>1374.80</td>
+</tr>
+<tr>
+<td>space width</td>
+<td>30.00</td>
+<td>1181.10</td>
+<td></td>
+<td>space width</td>
+<td>26.50</td>
+<td>1043.31</td>
+</tr>
+<tr>
+<td>board width</td>
+<td>30.00</td>
+<td>1181.10</td>
+<td></td>
+<td>board width</td>
+<td>20.00</td>
+<td>787.40</td>
+</tr>
+<tr>
+<td>fixing width</td>
+<td>24.92</td>
+<td>981.10</td>
+<td></td>
+<td>fixing width</td>
+<td>14.92</td>
+<td>587.40</td>
+</tr>
+<tr>
+<td>space thick</td>
+<td>6.00</td>
+<td>236.22</td>
+<td></td>
+<td>space thick</td>
+<td>6.00</td>
+<td>236.22</td>
+</tr>
+<tr>
+<td>board thick</td>
+<td>1.60</td>
+<td>63.00</td>
+<td></td>
+<td>board thick</td>
+<td>1.60</td>
+<td>62.99</td>
+</tr>
+<tr>
+<td>fixing hole</td>
+<td>3.00</td>
+<td>118.11</td>
+<td></td>
+<td>fixing hole</td>
+<td>3.00</td>
+<td>118.11</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ibom">ibom</h3>
+<p><a href="ibom-for-HWSD-WiFi-A.html">ibom-for-HWSD-WiFi-A.html</a> </p>
+<p><a href="ibom-for-HWSD-WiFi-B.html">ibom-for-HWSD-WiFi-B.html</a> </p>
+<h3 id="datasheet">Datasheet</h3>
+<p><a href="esp-12s_product_specification_zh_v1.0.pdf">esp-12s_product_specification_zh_v1.0.pdf</a> </p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../XT2XT/" class="btn btn-neutral float-left" title="XT2XT"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../Develop-F405/" class="btn btn-neutral float-right" title="Develop-F405">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+      <p>Copyright © 2022 ASR-Crash <img src='https://xmu-rm-hwsd-um.readthedocs.io/en/latest/img/ASR-WS.png' width='64'> |&nbsp; <img src='https://xmu-rm-hwsd-um.readthedocs.io/en/latest/img/Crash-precision.png' width='160'></p>
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../XT2XT/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../Develop-F405/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

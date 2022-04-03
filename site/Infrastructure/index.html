@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="ASR-Crash" /><link rel="canonical" href="https://xmu-rm-hwsd-um.readthedocs.io/en/latest/Infrastructure/" />
+      <link rel="shortcut icon" href="../favicon.ico" />
+    <title>Infrastructure - 厦门大学·RoboMaster·硬件标准化</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Infrastructure";
+        var mkdocs_page_input_path = "Infrastructure.md";
+        var mkdocs_page_url = "/en/latest/Infrastructure/";
+      </script>
+    
+    <script src="../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> 厦门大学·RoboMaster·硬件标准化
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption"><span class="caption-text">Overview</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Introduction/">Introduction</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../About-this-document/">About this document</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Navigation/">Navigation</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">ACTR Series</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../H-bridge/">H-bridge</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../High-Side-Switch/">High-Side Switch</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Adapter Series</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../CAN-Center/">CAN Center</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../CAN-Cube/">CAN Cube</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../CAN-RECT/">CAN RECT</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../DBUS/">DBUS</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../GH2GH/">GH2GH</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../XT2XT/">XT2XT</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Assistant Series</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../WiFi/">WiFi</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">DEV Series</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Develop-F405/">Develop-F405</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">MAIN Series</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Core/">Core</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Robotics/">Robotics</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">PSM Series</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../PowerConvert/">PowerConvert</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../PowerMonitor/">PowerMonitor</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../PowerProtect/">PowerProtect</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">SNSR Series</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Gyroscope/">Gyroscope</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Terminal Series</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../IPS/">IPS</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../OLED/">OLED</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Toolkit Series</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../Bluetooth/">Bluetooth</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../DAPLink/">DAPLink</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Detector/">Detector</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../USB2TTL/">USB2TTL</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Support</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../Software-Support/">Software Support</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Application-Case/">Application Case</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Infrastructure</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#_2">贴片元件盒</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_3">板级插件盒</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_4">接线插件盒</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../Model-Download/">Model Download</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">厦门大学·RoboMaster·硬件标准化</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+          <li>Support &raquo;</li><li>Infrastructure</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h2 id="_1">基础设施</h2>
+<h3 id="_2">贴片元件盒</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+<th>7</th>
+<th>8</th>
+<th>9</th>
+<th>10</th>
+<th>11</th>
+<th>12</th>
+<th>13</th>
+<th>14</th>
+<th>15</th>
+<th>16</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>0R</td>
+<td>10R</td>
+<td>22R</td>
+<td>100R</td>
+<td>120R</td>
+<td>1K</td>
+<td>2K</td>
+<td>3K</td>
+<td>4.7K</td>
+<td>5.1K</td>
+<td>10K</td>
+<td>20K</td>
+<td>24K</td>
+<td>30K</td>
+<td>51K</td>
+<td>100K</td>
+</tr>
+<tr>
+<td>2</td>
+<td>0R/1206</td>
+<td>47R</td>
+<td>470R</td>
+<td>3.24K</td>
+<td>4.99K</td>
+<td>14.3K</td>
+<td>23.7K</td>
+<td>40.2K</td>
+<td>53.6K</td>
+<td>63.4K</td>
+<td>120K</td>
+<td>124K</td>
+<td>499K</td>
+<td>845K</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>18pF</td>
+<td>47pF</td>
+<td>390pF</td>
+<td>33nF</td>
+<td>100nF</td>
+<td>470nF</td>
+<td>1uF</td>
+<td>2.2uF</td>
+<td>4.7uF</td>
+<td>10uF</td>
+<td>22uF</td>
+<td>4.7uF/1206/50V</td>
+<td>10uF/1206/25V</td>
+<td>10uF/1210/50V</td>
+<td>22uF/1210/25V</td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>NLCV-4R7</td>
+<td>NLCV-100K</td>
+<td>IHLP-10uH</td>
+<td>IHLP-22uH</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>LED-R</td>
+<td>LED-G</td>
+<td>LED-B</td>
+<td>LED-Y</td>
+<td>LED-W</td>
+<td>WS2812B</td>
+<td></td>
+<td>1N4148</td>
+<td>DFLS160Q</td>
+<td>SBR3U40</td>
+<td>SS8P6C</td>
+<td>S8050</td>
+<td>BSC098N10NS5</td>
+<td>TPSMB30CA</td>
+<td>TPSMB68A</td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>XTAL-25M</td>
+<td>XTAL-8M</td>
+<td>BLM15HG</td>
+<td>SN65HVD232</td>
+<td>NUF2221</td>
+<td></td>
+<td></td>
+<td>ASMD1206</td>
+<td>CH340N</td>
+<td>CH340K</td>
+<td>TLV7011DCKR</td>
+<td>W25Q128</td>
+<td>AT24C256</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>LT8653S</td>
+<td>LT4356</td>
+<td>MPQ4470</td>
+<td>TPS5430</td>
+<td>LTC3525</td>
+<td></td>
+<td></td>
+<td>LP5912Q</td>
+<td>LP5907Q</td>
+<td>REF3012</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>SKRPABE</td>
+<td>1TS002B</td>
+<td>TDA02H0</td>
+<td>SSSS810701</td>
+<td>TM-2023</td>
+<td></td>
+<td></td>
+<td>TS5A3159</td>
+<td>TPS4H160A</td>
+<td>TPS22917</td>
+<td>TPS22948</td>
+<td>DRV8871</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="_3">板级插件盒</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>GH1.25 2pin 卧贴</td>
+<td>GH1.25 2pin 立贴</td>
+<td>M3*6 双通尼龙</td>
+<td>M3*6+6 单通尼龙</td>
+<td>MicroQTJ</td>
+<td>Header-3P-R</td>
+</tr>
+<tr>
+<td>2</td>
+<td>GH1.25 4pin 卧贴</td>
+<td>GH1.25 4pin 立贴</td>
+<td>M3*10 双通尼龙</td>
+<td>M3*10+6 单通尼龙</td>
+<td>CR1220-2ZX</td>
+<td>Header-4P</td>
+</tr>
+<tr>
+<td>3</td>
+<td>GH1.25 6pin 卧贴</td>
+<td>GH1.25 6pin 立贴</td>
+<td>M3*6 螺丝</td>
+<td>M3 螺母</td>
+<td>TF-114</td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>XT60PB-F</td>
+<td>XT60PB-M</td>
+<td>XT30PW-F</td>
+<td>XT30PW-M</td>
+<td>XT30UPB-F</td>
+<td>XT30UPB-M</td>
+</tr>
+<tr>
+<td>5</td>
+<td>XT60PB-F</td>
+<td>XT60PB-M</td>
+<td>XT30PW-F</td>
+<td>XT30PW-M</td>
+<td>XT30UPB-F</td>
+<td>XT30UPB-M</td>
+</tr>
+<tr>
+<td>6</td>
+<td>XT60PB-F</td>
+<td>XT60PB-M</td>
+<td>XT30PW-F</td>
+<td>XT30PW-M</td>
+<td>XT30UPB-F</td>
+<td>XT30UPB-M</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_4">接线插件盒</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>GH1.25 2pin 胶壳</td>
+<td>GH1.25 3pin 胶壳</td>
+<td>GH1.25 4pin 胶壳</td>
+<td>GH1.25 6pin 胶壳</td>
+<td>Header-3P 胶壳</td>
+<td>Header-4P 胶壳</td>
+</tr>
+<tr>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>XT60U-F</td>
+<td>XT60U-M</td>
+<td>XT30U-F</td>
+<td>XT30U-M</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>XT60U-F</td>
+<td>XT60U-M</td>
+<td>XT30U-F</td>
+<td>XT30U-M</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>XT60U-F</td>
+<td>XT60U-M</td>
+<td>XT30U-F</td>
+<td>XT30U-M</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../Application-Case/" class="btn btn-neutral float-left" title="Application Case"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../Model-Download/" class="btn btn-neutral float-right" title="Model Download">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+      <p>Copyright © 2022 ASR-Crash <img src='https://xmu-rm-hwsd-um.readthedocs.io/en/latest/img/ASR-WS.png' width='64'> |&nbsp; <img src='https://xmu-rm-hwsd-um.readthedocs.io/en/latest/img/Crash-precision.png' width='160'></p>
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../Application-Case/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../Model-Download/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

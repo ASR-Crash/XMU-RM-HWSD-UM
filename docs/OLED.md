@@ -2,7 +2,7 @@
 
 ### 概念图
 
-![HWSD-OLED]HWSD-OLED.png)
+![HWSD-OLED](HWSD-OLED.png)
 
 ### 原理图
 
