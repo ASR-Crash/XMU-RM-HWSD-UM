@@ -22,7 +22,9 @@
 
 ### 用户手册
 
- [HWSD-MAIN for Robotics 用户手册.html](HWSD-MAIN for Robotics 用户手册.html) 
+ [HWSD-MAIN-Robotics-UM-for-V2.0.html](user-manual\V2.0\HWSD-MAIN-Robotics-UM-for-V2.0.html) 
+
+ [HWSD-MAIN-Robotics-UM-for-V3.0.html](user-manual\V3.0\HWSD-MAIN-Robotics-UM-for-V3.0.html) 
 
 ### 机械参数
 

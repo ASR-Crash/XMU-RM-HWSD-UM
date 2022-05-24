@@ -67,7 +67,7 @@
 - [Model Download：模型下载](Model-Download.md)
 
 ----
-###### Latest Updated ：2022.04.11
+###### Latest Updated ：2022.05.24
 ----
 
 <img src="logo\logo3.png" alt="Authorize to 厦门大学机器人队" />
